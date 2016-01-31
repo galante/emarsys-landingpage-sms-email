@@ -7,6 +7,7 @@ Last Name:<input type=text maxlength=255 name="inp_2" value=""><br>
 E-Mail:<input type=text maxlength=255 name="inp_3" value=""><br>
 mobile phone number:<input type=text maxlength=255 name="inp_100002593" value=""><br>
 Mobile SMS Opt-In:<select name="inp_100002609" size=1><option value=""> </option><option value="1">True</option><option value="2">False</option></select><br>
+Mobile:<input type=text maxlength=255 name="inp_37" value=""><br>
 *Subject:<input type=text name="subject" maxlength=100><br>
 *Message:<textarea name="msg" wrap=virtual></textarea><br>
 <input type=button onclick="javascript:MailIt()" name="submit1" value="Contact"></form>
