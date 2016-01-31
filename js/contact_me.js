@@ -1,7 +1,7 @@
 $(function() {
 
     // This function is used for the Contact form and modal
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    $("#contactForm input,#contactForm textarea, #contactForm checkbox").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -14,6 +14,8 @@ $(function() {
             // Set email to the value in the Conact Field and Modal. This assumes only one is set
             var email = $("input#email").val() + $("input#Modalemail").val();
             var phone = $("input#phone").val() + $("input#Modalphone").val();
+            var smsOptin = $("checkbox#smsOptin").val();
+
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -42,6 +44,7 @@ $(function() {
                     inp_2: name,
                     inp_3: email,
                     inp_100002593: phone,
+                    inp_100002609: smsOptin,
                     subject: "New Contact",
                     msg: message
                 },

@@ -732,13 +732,14 @@
                      <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
                      <form name="sentMessage" id="contactForm" novalidate>
                          <div class="row">
-                             <div class="col-md-6">
+                             <div class="col-md-12">
                                  <div class="form-group">
-                                     <input type="email" class="form-control" placeholder="Your Email *" id="Modalemail" required data-validation-required-message="Please enter your email address.">
+                                     <input type="email" class="form-control" placeholder="Email *" id="Modalemail" required data-validation-required-message="Please enter your email address.">
                                      <p class="help-block text-danger"></p>
                                  </div>
                                  <div class="form-group">
-                                     <input type="tel" class="form-control" placeholder="Your Phone *" id="Modalphone" required data-validation-required-message="Please enter your phone number.">
+                                     <input type="tel" class="form-control" placeholder="Mobile Phone" id="Modalphone" required data-validation-required-message="Please enter your phone number.">
+                                     <input type="checkbox" name="smsOptin" value="1"> Yes to SMS Alerts - You‘ll receive 3 messages per month from an automated system. Message and data rates may apply. Text HELP to 35660 for help. Text STOP to 35660 to end. <br>
                                      <p class="help-block text-danger"></p>
                                  </div>
                              </div>
