@@ -739,7 +739,7 @@
                                  </div>
                                  <div class="form-group">
                                      <input type="tel" class="form-control" placeholder="Mobile Phone" id="Modalphone" required data-validation-required-message="Please enter your phone number.">
-                                     <input type="checkbox" id="checkbox" name="smsOptin" value="1"> Yes to SMS Alerts - You‘ll receive 3 messages per month from an automated system. Message and data rates may apply. Text HELP to 35660 for help. Text STOP to 35660 to end. <br>
+                                     <input type="checkbox" id="checkbox" name="smsOptin" value="1" checked> Yes to SMS Alerts - You‘ll receive 3 messages per month from an automated system. Message and data rates may apply. Text HELP to 35660 for help. Text STOP to 35660 to end. <br>
                                      <p class="help-block text-danger"></p>
                                  </div>
                              </div>
